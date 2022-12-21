@@ -1,0 +1,209 @@
+body {
+  font-family: "Poppins";
+}
+
+h1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 28px;
+  color: #414046;
+  text-align: center;
+  letter-spacing: 0.15px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+h2 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+/* ==============Navbar============= */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0277bd;
+  color: #fff;
+  padding: 12px;
+}
+
+.text-navbar {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 28px;
+  letter-spacing: 0.15px;
+}
+
+.icon-navbar {
+  background-image: url("./assets/items/burger-navbar.png");
+  background-color: #0277bd;
+  padding: 0;
+  border: none;
+  width: 48px;
+  height: 48px;
+}
+
+.search-navbar {
+  background-image: url("./assets/items/search-navbar.png");
+  background-color: #0277bd;
+  padding: 0;
+  border: none;
+  width: 48px;
+  height: 48px;
+}
+
+.shop-navbar {
+  background-image: url("./assets/items/shop-navbar.png");
+  background-color: #0277bd;
+  padding: 0;
+  border: none;
+  width: 48px;
+  height: 48px;
+}
+
+.left-items {
+  display: flex;
+  align-items: center;
+}
+
+.right-items {
+  display: flex;
+}
+
+/* ==============Header============= */
+
+.header-image {
+  width: 40px;
+  height: 40px;
+  margin-top: 16px;
+  margin-bottom: 21px;
+}
+
+.header-element {
+  display: flex;
+  justify-content: center;
+}
+
+.header-text {
+  margin: 0;
+}
+
+.header-subtitle {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #414046;
+  text-align: center;
+  letter-spacing: 0.16px;
+}
+
+/* ==============Separator============= */
+
+.separator-container {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  background-color: #f5f5f5;
+  margin-top: 23px;
+}
+
+.separator-text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 28px;
+  color: #414046;
+  letter-spacing: 0.15px;
+  margin-left: 16px;
+}
+
+/* ==============ElementList============= */
+
+.list-container {
+  display: flex;
+  align-items: center;
+  margin-top: 14px;
+}
+
+.list-name {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: 0.15px;
+  color: #414046;
+}
+
+.list-concentration {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: 0.15px;
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.list-container-button {
+  display: flex;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+}
+
+.list-button {
+  background-image: url("./assets/items/save-list.png");
+  padding: 0;
+  border: none;
+  width: 48px;
+  height: 48px;
+}
+
+.list-image {
+  width: 62px;
+  height: 42px;
+}
+
+.list-container-image {
+  width: 98px;
+  display: flex;
+  justify-content: center;
+}
+
+.list-container-text {
+  width: 198px;
+}
+
+.list-info {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: 0.15px;
+  text-decoration-line: underline;
+  color: #0277bd;
+}
+
+.list-info-danger {
+  color: #f44336 !important;
+}
+
+.stick {
+  position: absolute;
+  height: 1px;
+  left: 0%;
+  right: 0%;
+  margin-top: 7px;
+  margin-bottom: 10px;
+
+  background: rgba(0, 0, 0, 0.12);
+}
