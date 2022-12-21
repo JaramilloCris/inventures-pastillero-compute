@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import Product from "../../../interfaces";
 
 interface ElementListState {
@@ -41,8 +41,8 @@ export default function ElementList() {
       {products.map((product: Product, index: number): JSX.Element => {
         const randomNumber: number = Math.floor(Math.random() * 31);
         return (
-          <>
-            <div key={index} className="list-container">
+          <React.Fragment key={index}>
+            <div className="list-container">
               <div className="list-container-image">
                 <img
                   className="list-image"
@@ -73,7 +73,7 @@ export default function ElementList() {
               </div>
             </div>
             <div className="stick"></div>
-          </>
+          </React.Fragment>
         );
       })}
     </div>
